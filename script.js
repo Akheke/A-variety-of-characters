@@ -74,4 +74,4 @@ function update() {
   writeDisplay(display);
 }
 
-setInterval(update,600);
+setInterval(update,200);
