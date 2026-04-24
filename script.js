@@ -17,6 +17,7 @@ function writeDisplay(input) {
           break;
         case 3:
           row = row + "@";
+          row = Math.random();
           break;
         default:
           row = row + "#";
