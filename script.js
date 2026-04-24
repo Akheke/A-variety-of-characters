@@ -11,9 +11,11 @@ function writeDisplay(input) {
           break;
         case 1:
           row = row + "*";
+          display[i][t] *= 0.8;
           break;
         case 2:
           row = row + "$";
+          display[i][t] *= 0.7;
           break;
         case 3:
           row = row + "@";
